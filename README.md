@@ -5,7 +5,7 @@
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-🌟 **Check out APUBCC Token Broker Demo [here](https://vercel.com/rhs-projects-35dfcc97/apubcc-workshop)!**
+🌟 **Check out APUBCC Token Broker Demo [here](apubcc-workshop.vercel.app)!**
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
