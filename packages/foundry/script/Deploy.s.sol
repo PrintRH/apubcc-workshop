@@ -2,7 +2,10 @@
 pragma solidity ^0.8.19;
 
 import "../contracts/YourContract.sol";
+import "../contracts/ApuToken.sol";
+import "../contracts/ApuBroker.sol";
 import "./DeployHelpers.s.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract DeployScript is ScaffoldETHDeploy {
   error InvalidPrivateKey(string);
@@ -22,6 +25,17 @@ contract DeployScript is ScaffoldETHDeploy {
         "YourContract deployed at: ", vm.toString(address(yourContract))
       )
     );
+
+    ApuToken apuToken = new ApuToken();
+    console.logString(
+      string.concat("ApuToken deployed at: ", vm.toString(address(apuToken)))
+    );
+
+    ApuBroker apuBroker = new ApuBroker(address(apuToken));
+    console.logString(
+      string.concat("ApuBroker deployed at: ", vm.toString(address(apuBroker)))
+    );
+    apuToken.transfer(address(apuBroker), 1000000 ether);
 
     vm.stopBroadcast();
 
