@@ -1,9 +1,11 @@
-# 🏗 Scaffold-ETH 2
+# 🏗 Scaffold-ETH 2 x Scroll
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
+
+🌟 **Check out APUBCC Token Broker Demo [here](https://vercel.com/rhs-projects-35dfcc97/apubcc-workshop)!**
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
@@ -65,7 +67,6 @@ Run smart contract test with `yarn foundry:test`
 - Edit your smart contract `YourContract.sol` in `packages/foundry/contracts`
 - Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
 - Edit your deployment scripts in `packages/foundry/script`
-
 
 ## Documentation
 
