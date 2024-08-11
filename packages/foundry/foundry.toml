@@ -31,6 +31,7 @@ scroll = "https://rpc.scroll.io"
 [etherscan]
 polygonMumbai = { key = "${ETHERSCAN_API_KEY}" }
 sepolia = { key = "${ETHERSCAN_API_KEY}" }
+scrollSepolia = {key = "${ETHERSCAN_API_KEY}"}
 
 
 [fmt]
