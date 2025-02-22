@@ -1,6 +1,6 @@
 # 🏗 Scaffold-ETH 2 x Scroll
 
-🌟 **Check out APUBCC Token Broker Demo [here](apubcc-workshop.vercel.app)!**
+🌟 **Check out APUBCC Token Broker Demo [here](https://apubcc-workshop.vercel.app)!**
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
